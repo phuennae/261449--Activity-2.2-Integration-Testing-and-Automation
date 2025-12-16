@@ -166,4 +166,5 @@ class TestSandwich:
             service.place_order("rich@test.com", items, "EU")
             
         # Assert Rollback
+
         assert inv.get_stock("LAPTOP") == 5
